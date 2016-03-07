@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.evertton.cartodevisita.MainActivity" >
+
+    <ImageView
+        android:src="@drawable/evertton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:text="Evertton de Lima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36dp"
+        android:textColor="#f5f5f5"
+        android:background="#333"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="\@everttonlyma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:textSize="20dp"
+        android:textColor="#ccc"
+        android:background="#333"
+        android:textAlignment="center"
+        android:onClick="abrirTwitter" />
+
+</RelativeLayout>
